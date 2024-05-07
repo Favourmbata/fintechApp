@@ -1,0 +1,143 @@
+.mainCont{
+    display: flex;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+.sliderCont{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    margin-top: 50px;
+    /*gap: 30px;*/
+    /*left: 90px;*/
+}
+.slideImage {
+    width: 60%;
+    height: 70vh;
+    animation: slideShow 10s infinite linear;
+    /*object-fit: cover;*/
+
+}
+.exCont{
+    border-radius: 12px;
+
+    border: none;
+    width: 37%;
+    height: 60px;
+    margin-top: 30%;
+    color: #fff;
+    background-color: #4451bc;
+}
+.archive{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contBtn{
+    border-radius: 12px;
+    border-color: blue;
+    border-style: solid;
+    width: 35%;
+
+    height: 60px;
+    color: blue;
+    margin-left: 33px;
+
+
+}
+.emptydiv{
+    border-left: solid gray 2px;
+}
+
+.imagePair {
+    display: flex;
+}
+
+.imageFlexContainer {
+    flex: 1;
+}
+@keyframes swiper-preloader-spin {
+    0%{
+        transform: rotate(0deg);
+
+    }
+   to{
+        transform: rotate(1turn);
+    }
+}
+.blueBackground{
+    background: blue;
+    width: 42%;
+    height: 300px;
+    border-radius: 12px;
+
+}
+.itemsDiv{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    justify-content: center;
+    padding: 10px 12px;
+}
+.sectionDiv{
+    display: flex;
+    flex-direction: column;
+}
+.sectionThree{
+     padding: 20px 15px;
+    display: flex;
+    /*flex-direction: row;*/
+    /*height: 100px;*/
+}
+.btn{
+    height: 50px;
+    width: 74%;
+    border-radius: 7px;
+    border-color: white;
+
+
+
+   color: white;
+}
+.lucid{
+    background: #5866de;
+    width: 32%;
+    padding: 16px 14px;
+
+    border-radius: 20px;
+
+}
+.commentBtn {
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin-top: 90px;
+}
+
+
+.commentBtn::after {
+    content: "";
+    background-color: #C2D8FF;
+    width: 125%;
+    height: 125%;
+    border-radius: 8%;
+    position: absolute;
+    left: -25%;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.commentBtn:hover::after {
+    transform: scale(2);
+}

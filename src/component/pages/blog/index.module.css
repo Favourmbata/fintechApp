@@ -1,0 +1,15 @@
+
+.image1{
+    object-fit: cover;
+    transition: all ease-in  2ms;
+    cursor: pointer;
+    width: 105%;
+    height: 317px;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+.secondSection{
+    display: flex;
+    flex-direction: row;
+}

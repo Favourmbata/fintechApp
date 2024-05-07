@@ -1,0 +1,13 @@
+.filledBtn{
+    border: none;
+    border-radius: 10px;
+    margin-top: 35%;
+    /*font-weight: normal;*/
+    /*font-size: 16px;*/
+    /*padding: 15px 40px;*/
+    height: 80px;
+    width: 30%;
+    /*width: 80px;*/
+    /*max-width: 20px;*/
+    /*margin-right: 90px;*/
+}

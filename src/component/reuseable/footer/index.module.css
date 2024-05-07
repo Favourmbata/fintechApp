@@ -1,0 +1,70 @@
+.mainCont{
+    background-color: black;
+    justify-content: center;
+
+}
+.linkCont{
+    margin-top: 60px;
+}
+
+
+.secondCont {
+    display: flex;
+    padding: 10px;
+
+}
+.thirdCont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px ;
+    width: 100%
+}
+
+
+.resource {
+    display: flex;
+    margin-bottom: 8%;
+
+    color: white;
+}
+.resource li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+.product{
+    display: flex;
+    color: white;
+}
+.product li {
+    list-style: none;
+    margin-top: 20px;
+}
+.company{
+
+    display: flex;
+    margin-bottom: 7%;
+    color: white;
+}
+.company li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+.social{
+ gap: 10px;
+ display: flex;
+
+}
+.policy{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.policy_href{
+    display: flex;
+    gap: 20px;
+
+}
